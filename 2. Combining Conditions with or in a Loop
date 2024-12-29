@@ -1,0 +1,4 @@
+# Example: Print numbers outside 5 to 15 range
+for num in range(20):
+    if num < 5 or num > 15:
+        print(f"{num} is outside the range of 5 to 15")
