@@ -1,0 +1,4 @@
+# Example: Print odd numbers
+for num in range(10):
+    if not (num % 2 == 0):
+        print(f"{num} is odd")
