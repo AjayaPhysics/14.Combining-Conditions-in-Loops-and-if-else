@@ -1,0 +1,4 @@
+# Example: Check numbers between 5 and 15
+for num in range(20):
+    if num > 5 and num < 15:
+        print(f"{num} is between 5 and 15")
